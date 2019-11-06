@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body id="page-top">
@@ -19,8 +20,8 @@
                 aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">Menu</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Testimonies</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#menu">Menu</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#customers">Testimonies</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About our founder</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -35,26 +36,106 @@
                 <div class="intro-heading text-uppercase"><span><em>"Now I am Kote. I tend to my inn..."</em></span></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" href="#services">Tell me more</a></div>
         </div>
     </header>
-    <section id="menu">
+    <section id="portfolio" class="bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Services</h2>
-                    <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur</h3>
+                    <h2 class="text-uppercase section-heading">Menu</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/coffee.jpeg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Coffee</h4>
+                        <p class="text-muted">Illustration</p>
+                    </div>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/chocolate.jpeg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Chocolate</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/beer.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Beer</h4>
+                        <p class="text-muted">Identity</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/applecider.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Apple Cider</h4>
+                        <p class="text-muted">Branding</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid img-fluid" src="assets/img/wine.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Wine</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/oil.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Cod Liver Oil</h4>
+                        <p class="text-muted">Photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/stew.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Stew</h4>
+                        <p class="text-muted">Illustration</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/bread.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Fresh baked Bread</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/pie.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Apple Pie</h4>
+                        <p class="text-muted">Identity</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,113 +160,9 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/3.jpg">
-                        <h4>Carter</h4>
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/d.jpg">
+                        <h4>Denna</h4>
                         <p class="text-muted">Lead Developer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="portfolio" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Menu</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/1-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Coffee</h4>
-                        <p class="text-muted">Illustration</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/2-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Chocolate</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/3-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Beer</h4>
-                        <p class="text-muted">Identity</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/4-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Apple Cider</h4>
-                        <p class="text-muted">Branding</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid img-fluid" src="assets/img/portfolio/5-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Wine</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/6-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Cod Liver Oil</h4>
-                        <p class="text-muted">Photography</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/1-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Stew</h4>
-                        <p class="text-muted">Illustration</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/2-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Fresh baked Bread</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/3-thumbnail.jpg"></a>
-                    <div class="portfolio-caption">
-                        <h4>Apple Pie</h4>
-                        <p class="text-muted">Identity</p>
                     </div>
                 </div>
             </div>
@@ -196,18 +173,17 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase">About our founder</h2>
-                    <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="text-muted section-subheading">Kote / Kvothe</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-group timeline">
                         <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/kvothe3.jpeg"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4 class="subheading">Humble Beginnings</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -215,11 +191,10 @@
                             </div>
                         </li>
                         <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/kvothe5.jpg"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4 class="subheading">A Time of Transition</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -227,11 +202,10 @@
                             </div>
                         </li>
                         <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/kvothe6.jpg"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4 class="subheading">A Legend is Born</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -239,11 +213,10 @@
                             </div>
                         </li>
                         <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/kvothe2.jpg"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4 class="subheading">Expansion</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -252,7 +225,7 @@
                         </li>
                         <li class="list-group-item timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part<br>&nbsp;Of Our<br>&nbsp;Story!</h4>
+                                <h4>To Be Continued</h4>
                             </div>
                         </li>
                     </ul>
@@ -261,25 +234,20 @@
         </div>
     </section>
     <section id="team" class="bg-light">
+        <h2 class="text-uppercase">Team</h2>
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/1.jpg">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                    </div>
+                    <div class="team-member"></div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/2.jpg">
-                        <h4>Larry Parker</h4>
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/bast.jpg">
+                        <h4>Bast</h4>
                         <p class="text-muted">Lead Marketer</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/3.jpg">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                    </div>
+                    <div class="team-member"></div>
                 </div>
             </div>
         </div>
